@@ -1,6 +1,6 @@
 :root {
---white: #fafafa;
---black: #2d2d2d;
+    --white: #fafafa;
+    --black: #2d2d2d;
 }
 
 * {
@@ -33,14 +33,6 @@ header {
     
 }
 
-section > header:hover {
-    opacity: 0.5;
-}
-
-section > h2:hover {
-    opacity: 0.5;
-}
-
 main {
     width: 100%;
     display: grid;
@@ -55,8 +47,8 @@ main {
 header > h2 {
     background-image: linear-gradient(120deg, #259999 0%, #fecfef 100%);
     border-radius: 53% 47% 100% 0% / 100% 100% 0% 0% 
-  }
-  
+}
+
 header > p {
     background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
     border-radius: 0% 0% 0% 0% / 50% 100% 100% 50% ;
@@ -69,15 +61,72 @@ section > h2 {
     text-transform: uppercase;
 }
 
+header > h2:hover {
+    background-image: linear-gradient(60deg, #259999 100%, #fecfef 0%);
+    color:salmon;
+    transition: background-image .15s;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+header > p:hover {
+    background-image: linear-gradient(120deg, #ff9a9e 30%, #fecfef 50%);
+    color:salmon;
+    transition: background-image .15s;
+    transform:scale(0.7);
+}
+
 h2:nth-child(){
     font-size: 5em;
 }
 
-details[open] {
-    animation: open .5s ease-in-out;
+details {
+    margin: 1rem auto;
+    width: 35em;
+    max-width: calc(100% - 2rem);
+    position: relative;
+    border: 1px solid #78909C;
+    background-color: #ECEFF1;
+    color: #263238;
+    transition: background-color .15s;
+    
 }
 
-@keyframes open {
-    0% {opacity: 0; margin-left: -20px}
-    100% {opacity: 1; margin-left: 0px}
+details:hover {
+    opacity: 0.5;
+}
+
+details[open] {
+    background-color: #FFF;
+    transform:rotate3d(2, 2, 2, 360deg);
+    transition: transform 5.8s ease-in-out;
+}
+
+main > div {
+    transform:rotateY(360deg);
+    transition: transform 5.8s ease-in-out;
+}
+
+summary {
+    padding: 1rem 0em 1rem 0;
+    position: relative;
+    font-size: 1.33em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::before {
+    width: 1em;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    content: '';
+    background-color: currentColor;
+    text-align: right;
+    transform: translateY(-50%);
+    transition: transform .2s ease-in-out;
+}
+
+summary::-webkit-details-marker {
+    display: none;
 }
