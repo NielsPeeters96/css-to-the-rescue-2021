@@ -57,15 +57,17 @@ header > p {
 section > h2 {
     font-family: 'Big Shoulders Display', cursive;
     color: var(--black);
-    font-size: 4em;
+    font-size: 5em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 header > h2:hover {
     background-image: linear-gradient(60deg, #259999 100%, #fecfef 0%);
     color:salmon;
     transition: background-image .15s;
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(0.7, 0.7, 0.7);
+    transition: transform 1s ease-in-out;
 }
 
 header > p:hover {
@@ -75,8 +77,8 @@ header > p:hover {
     transform:scale(0.7);
 }
 
-h2:nth-child(){
-    font-size: 5em;
+section > blockquote {
+    font-size: 0.5em;    
 }
 
 details {
@@ -97,14 +99,14 @@ details:hover {
 
 details[open] {
     background-color: #FFF;
-    transform:rotate3d(2, 2, 2, 360deg);
-    transition: transform 5.8s ease-in-out;
+    transform:rotate3d(2, 2, 2, 1080deg);
+    transition: transform 3.8s ease-in-out;
 }
 
-main > div {
+/* main > div {
     transform:rotateY(360deg);
     transition: transform 5.8s ease-in-out;
-}
+} */
 
 summary {
     padding: 1rem 0em 1rem 0;
