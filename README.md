@@ -9,3 +9,5 @@ Met deze eindopdracht wil ik zorgen dat ik meer kennis en vaardigheden krijg ove
 - kijken naar on click transities.
 
 Als eerst ga ik een beeld schetsen en dit vervolgens proberen uit te werken met CSS.
+
+- Zorg ervoor dat je niet alles bij elkaar gooit maar dat het 1 geheel wordt.
