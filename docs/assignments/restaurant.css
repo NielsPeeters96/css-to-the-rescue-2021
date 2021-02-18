@@ -153,8 +153,8 @@ article {
     }
 }
 
-div {
-    animation: rotate 2s ease-in-out infinite alternate;;
+article > div {
+    animation: rotate 2s ease-in-out infinite alternate;
     margin: 1rem auto;
     max-width: calc(20% - 2rem);
 }
@@ -189,10 +189,6 @@ input:checked ~ label + label {
 
 #pause {
     display: none;
-}
-
-input[type=checkbox]:checked ~ body, body section div, body section div p {
-    animation-play-state: paused;
 }
 
 /* details {
