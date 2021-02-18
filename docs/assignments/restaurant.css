@@ -110,7 +110,6 @@ details {
     position: relative;
     border: 1px solid #78909C;
     background-color: #fecfef;
-    font-size: 0.5em;
 }
 
 details[open] {
