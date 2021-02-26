@@ -192,7 +192,7 @@ input:checked ~ label + label {
     display: none;
 }
 
-section input[type="checkbox"]:checked ~ body div h1 h2 h3 {
+section input[type="checkbox"]:checked h2 {
     animation-play-state: paused;
 }
 
