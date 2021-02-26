@@ -28,6 +28,11 @@ header {
     text-align: center;
 }
 
+article {
+    box-shadow: 1px 1px 1px 1px;
+    margin: 1em 1em;
+}
+
 main {
     width: 100%;
     display: grid;
@@ -185,6 +190,10 @@ input:checked ~ label + label {
 
 #pause {
     display: none;
+}
+
+section input[type="checkbox"]:checked ~ body div h1 h2 h3 {
+    animation-play-state: paused;
 }
 
 /* details {
