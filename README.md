@@ -25,4 +25,11 @@ In week 1 I experimented a lot with new techniques. I watched tutorials about se
 
 -   [x] **Add details**
 
-
+## Learning Goals
+- Using selectors
+- Transforms and animations
+- Media queries
+- Responsive design
+- vw, vh, display grid and flex
+- Styling a checkbox
+- Shapes
