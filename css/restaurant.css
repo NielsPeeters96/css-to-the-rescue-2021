@@ -196,7 +196,7 @@ input:checked ~ main section header h2,
 input:checked ~ main section article div,
 input:checked ~ main section h2 span,
 input:checked ~ main section header p {
-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 /* details {
