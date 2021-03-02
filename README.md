@@ -36,7 +36,11 @@ In week 1 I experimented a lot with new techniques. I watched tutorials about se
 
 ## Sources
 https://css-tricks.com/almanac/properties/a/animation/
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+
 https://css-tricks.com/almanac/selectors/
+
 https://css-tricks.com/snippets/css/complete-guide-grid/
+
 https://ghehehe.nl/
