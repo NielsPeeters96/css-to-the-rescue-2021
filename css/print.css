@@ -22,9 +22,8 @@
     section {
       display: flex;
       flex-wrap: wrap;
-  
-      page-break-after: always;
-      page-break-inside: always;
+
+      page-break-before: always;
     }
   
     body > header {
