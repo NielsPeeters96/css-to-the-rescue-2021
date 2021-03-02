@@ -192,8 +192,11 @@ input:checked ~ label + label {
     display: none;
 }
 
-section input[type="checkbox"]:checked h2 {
-    animation-play-state: paused;
+input:checked ~ main section header h2,
+input:checked ~ main section article div,
+input:checked ~ main section h2 span,
+input:checked ~ main section header p {
+animation-play-state: paused;
 }
 
 /* details {
