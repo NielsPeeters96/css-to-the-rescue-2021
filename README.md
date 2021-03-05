@@ -5,7 +5,13 @@ I never worked with HTML and CSS as much as I did now. Learned alot of thing, li
 https://nielspeeters96.github.io/css-to-the-rescue-2021/index.html
 
 ## Summary
-In week 1 I experimented a lot with new techniques. I watched tutorials about selectors and followed some examples. I really liked this course of the minor. After week 1 we got some lectures about CSS and these were very interesting to see. At the end of each lecture I always asked a question about their work and what tips and tricks they could give us. These lectures gave me inspiration to add new elements to my own website. This also happened in the 3rd week of our course. In week 4 I needed to optimize my website and add some last features like print-stylesheet and create a button play/pause animations. I struggled with the last feature but eventually it worked out.
+Week 1
+
+Week 2
+
+Week 3
+
+Week 4
 
 ## Todo list
 
