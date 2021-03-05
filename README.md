@@ -13,13 +13,6 @@ Week 3
 
 Week 4
 
-## Code
-
-![Animations](https://github.com/NielsPeeters96/css-to-the-rescue-2021/blob/master/img/Animation.png)
-
-![Animation Play/Pause](https://github.com/NielsPeeters96/css-to-the-rescue-2021/blob/master/img/Pause%20button.png)
-
-
 ## Todo list
 
 -   [x] **Print-stylesheet**.
