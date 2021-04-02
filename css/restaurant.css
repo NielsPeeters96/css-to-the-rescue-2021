@@ -10,7 +10,8 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: raleway;
+    font-weight: 800;
     background-image: linear-gradient(120deg, #ff9a9e 30%, #fecfef 50%);
 }
 
@@ -66,13 +67,8 @@ header > h2 {
 header > p:nth-child(2n) {
     background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
     border-radius: 0% 0% 0% 0% / 50% 100% 100% 50% ;
-<<<<<<< Updated upstream
     animation: nudge 1s linear infinite alternate;
     max-width: calc(100% - 2rem);
-=======
-    animation: nudge .5s linear infinite alternate;
-    margin: 1rem auto;
->>>>>>> Stashed changes
 }
 
 @keyframes nudge {
@@ -81,19 +77,11 @@ header > p:nth-child(2n) {
     }
     
     50% {
-<<<<<<< Updated upstream
         transform: translate(10px, 0);
     }
     
     80% {
         transform: translate(-10px, 0);
-=======
-        transform: translate(20px, 0);
-    }
-    
-    80% {
-        transform: translate(5px, 0);
->>>>>>> Stashed changes
     }
 }
 
@@ -111,7 +99,7 @@ section > h2 {
 /* Soup, Salad, Sweet animation */
 h2 > span {
     position: relative;
-    top: 20px;
+    top: 10px;
     display: inline-block;
     -webkit-animation: bounce 0.3s ease infinite alternate;
 }
@@ -138,7 +126,7 @@ h2 span:nth-child(5) {
 
 @-webkit-keyframes bounce {
     100% {
-        top: -20px;
+        top: -10px;
     }
 }
 
@@ -171,6 +159,7 @@ article > div {
     animation: rotate 2s ease-in-out infinite alternate;
     margin: 1rem auto;
     max-width: calc(20% - 2rem);
+    padding-bottom: 2rem;
 }
 
 @keyframes rotate {
@@ -193,7 +182,7 @@ label {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(332, 76%, 3%);
     font-size: 1.5em;
-    position: fixed;
+    position: absolute;
 }
 
 input:checked ~ label + label {
