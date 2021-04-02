@@ -25,6 +25,7 @@
       flex-wrap: wrap;
 
       page-break-before: always;
+      page-break-inside: avoid;
     }
   
     body > header {
