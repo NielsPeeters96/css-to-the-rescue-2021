@@ -94,30 +94,30 @@ section > h2 {
 }
 
 /* Soup, Salad, Sweet animation */
-h2 > span {
+h1 > span {
     position: relative;
     top: 10px;
     display: inline-block;
     -webkit-animation: bounce 0.3s ease infinite alternate;
 }
 
-h2 > span:nth-child(1) {
+h1 > span:nth-child(1) {
     -webkit-animation-delay: 0.1s;
 }
 
-h2 span:nth-child(2) {
+h1 span:nth-child(2) {
     -webkit-animation-delay: 0.2s;
 }
 
-h2 span:nth-child(3) {
+h1 span:nth-child(3) {
     -webkit-animation-delay: 0.3s;
 }
 
-h2 span:nth-child(4) {
+h1 span:nth-child(4) {
     -webkit-animation-delay: 0.4s;
 }
 
-h2 span:nth-child(5) {
+h1 span:nth-child(5) {
     -webkit-animation-delay: 0.5s;
 }
 
@@ -193,8 +193,9 @@ input:checked ~ label + label {
 
 input:checked ~ main section header h2,
 input:checked ~ main section article div,
-input:checked ~ main section h2 span,
-input:checked ~ main section header p {
+input:checked ~ main section header p,
+input:checked ~ header h1 span,
+input:checked ~ header p {
     animation-play-state: paused;
 }
 
