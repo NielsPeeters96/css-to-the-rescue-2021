@@ -47,9 +47,11 @@ For the resit I made my application more user-friendly by placing the button in 
 
 ## Learning Goals
 - Using selectors
+
 ![image](https://user-images.githubusercontent.com/78353674/117788801-023eed80-b248-11eb-8852-e89b71897331.png)
 
 - Transforms and animations
+
 ![image](https://user-images.githubusercontent.com/78353674/117788842-0d921900-b248-11eb-9859-6067a552e708.png)
 
 - Media queries
