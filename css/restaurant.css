@@ -225,8 +225,8 @@ details[open] {
 }
 
 @keyframes open {
-    0% {opacity: 0; margin-left: -20px}
-    100% {opacity: 1; margin-left: 0px}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
   }
 
 summary {
@@ -238,7 +238,7 @@ summary {
     filter: blur(0.3px);
 }
 
-summary::before {
+/* summary::before {
     width: 1em;
     height: 2px;
     position: absolute;
@@ -247,8 +247,13 @@ summary::before {
     content: '';
     background-color: currentColor;
     text-align: right;
-}
+} */
 
 summary::-webkit-details-marker {
     display: none;
+}
+
+main details {
+    margin-left: 60%;
+    margin-top: 50px;
 }
