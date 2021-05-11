@@ -254,6 +254,5 @@ summary::-webkit-details-marker {
 }
 
 main details {
-    margin-left: 60%;
-    margin-top: 50px;
+    margin-left: 120px;
 }
