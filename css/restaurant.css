@@ -180,11 +180,13 @@ label {
     color: hsl(332, 76%, 3%);
     font-size: 1.5em;
     position: absolute;
+    max-width: calc(20% - 2rem);
 }
 
 input:checked ~ label + label {
     display: block;
     color: hsl(332, 74%, 5%);
+    max-width: calc(20% - 2rem);
 }
 
 #pause {
