@@ -1,12 +1,12 @@
-# Restaurant Menu
+# 🍔 Restaurant Menu
 I never worked with HTML and CSS as much as I did now. Learned alot of thing, like animations, selectors, shapes, linear gradients, keyframes, etc. It was very fun to do and I will keep practicing. At first I thought about practicing alot of new things and combining them to make a good website. During the execution it turned out that many things were mixed up. Then I put some code in comments, so that it became a bit nicer and clearer.
 
 ![image](https://user-images.githubusercontent.com/78353674/117788573-ca37aa80-b247-11eb-8934-27b9a913ce87.png)
 
-## LiveLink
+## 🌐 LiveLink
 https://nielspeeters96.github.io/css-to-the-rescue-2021/index.html
 
-## Summary
+## 📖 Summary
 ### Week 1
 
 In the first week of this course, I started without first coming up with a plan. I wanted to add many different elements, but at a certain point it became very unclear, so I also deleted some points. It was my first time programming with CSS and I found it to go quite smoothly.
@@ -27,7 +27,7 @@ This was the week of the assessment and I tried to dot the I's and go through al
 
 For the resit I made my application more user-friendly by placing the button in the right place. I aligned the three bottom dishes more across the page and gave them a nice margin. In addition, I supplemented my ReadME with a weekly progression and hope to get the resit this way. I also adjusted the font and grotes and added extra animations
 
-## Todo list
+## 👑 Todo list
 
 -   [x] **Print-stylesheet**.
 
@@ -45,7 +45,7 @@ For the resit I made my application more user-friendly by placing the button in 
 
 -   [x] **Add details**
 
-## Learning Goals
+## 😇 Learning Goals
 - Using selectors
 
 ![image](https://user-images.githubusercontent.com/78353674/117788801-023eed80-b248-11eb-8852-e89b71897331.png)
@@ -60,7 +60,7 @@ For the resit I made my application more user-friendly by placing the button in 
 - Styling a checkbox
 - Shapes
 
-## Sources
+## 🔍 Sources
 https://css-tricks.com/almanac/properties/a/animation/
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
